@@ -1,0 +1,19 @@
+#Lines 4-15 appear to work fine. However, when I paste in lines 18 & 19 to start a For loop, it states "syntax error" for the "<" symbol. Line 18 is the same
+#as line 10, so why doesn't line 18 work?
+
+num1 = int(input('enter the first number: '))
+num2 = int(input('Enter the second number: '))
+power = (num1 ** num2)
+return power
+print('The power of ', num1, ' raised to ', num2, ' is', power)
+
+if power <= 1000:
+    print('Weak. Need more power.')
+elif power > 1000000:
+    print('Too much power!')
+else:
+    print("That's strong.")
+
+# Line 18 is same as line 10, but it returns "Syntax error."
+for power <= 1000:
+    print("Let's dial it up a little... ")
