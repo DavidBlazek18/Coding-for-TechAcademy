@@ -1,0 +1,22 @@
+#This Page 322 assignment challenges the student to create
+#a program on your own that contains the following:
+#Multiplies a number to the power of another number,.
+#An if, elif and else statement
+#3. A for loop
+#4. A while loop,
+#A dictionary
+
+import time
+def raising_to_power(num1,num2):
+    num1 = int(input('Enter a number: '))
+    num2 = int(input('Enter another number: '))
+    result = num1 ** num2
+    return result
+print(raising_to_power)
+time.sleep(1)
+if (result) > 1000:
+    print("That's a lot of power!")
+elif (result) < 1000:
+    print("Weak.")
+else:
+    print("That's grand!")
